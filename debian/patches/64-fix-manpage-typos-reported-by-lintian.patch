@@ -1,0 +1,73 @@
+Description: Fix spelling errors found by Lintian
+Author: Axel Beckert <abe@debian.org>
+Forwarded: not-yet
+
+--- a/NEWS.3.5
++++ b/NEWS.3.5
+@@ -27,7 +27,7 @@
+   Please run the 'newsyntax' script on your old screenrc files!
+ 
+ * Emacs style isearch added to copy mode. Try ^A ESC ^R screen ^R ^R
+-  to locate the last three occurences of the word 'screen' in the
++  to locate the last three occurrences of the word 'screen' in the
+   history buffer.
+ 
+ * New command 'silence'. Alarms the user whenever there was inactivity
+--- a/doc/screen.1
++++ b/doc/screen.1
+@@ -1434,7 +1434,7 @@
+ \fBw\fP, \fBb\fP, and \fBe\fP@move the cursor word by word.
+ \fBB\fP, \fBE\fP@move the cursor WORD by WORD (as in vi).
+ \fBf/F\fP, \fBt/T\fP@T{
+-move the cursor forward/backward to the next occurence of the
++move the cursor forward/backward to the next occurrence of the
+ target. (eg, '3fy' will move the cursor to the 3rd 'y' to the right.)
+ T}
+ \fB;\fP and \fB,\fP@T{
+@@ -1451,7 +1451,7 @@
+ \fBC-b\fP and \fBC-f\fP@scroll the display up/down a full screen.
+ .TE
+ .\"\fBf\fP,\fBt\fP, \fBF\fP, \fBT\fP@T{
+-.\"move the cursor forward/backward to the next occurence of the target.
++.\"move the cursor forward/backward to the next occurrence of the target.
+ .\"T}
+ 
+ .PP
+@@ -1483,7 +1483,7 @@
+ Example: \*QC-a C-[ H 10 j 5 Y\*U will copy lines
+ 11 to 15 into the paste buffer.
+ .PP
+-The folllowing search keys are defined:
++The following search keys are defined:
+ .IP
+ \fB/\fP \fIVi\fP-like search forward.
+ .IP
+@@ -3093,7 +3093,7 @@
+ .I screen
+ will prompt for how you would like to resize the current region.
+ 
+-See \*Qfocusminsize\*U if you want to restrict the minimun size a region
++See \*Qfocusminsize\*U if you want to restrict the minimum size a region
+ can have.
+ .RE
+ .RE
+--- a/doc/screen.texinfo
++++ b/doc/screen.texinfo
+@@ -2211,7 +2211,7 @@
+ Without any arguments, @code{screen} will prompt for how you would
+ like to resize the current region.
+ 
+-See @code{focusminsize} if you want to restrict the minimun size a region can have.
++See @code{focusminsize} if you want to restrict the minimum size a region can have.
+ 
+ @end deffn
+ 
+@@ -3689,7 +3689,7 @@
+ 
+ @noindent
+ @kbd{f}/@kbd{F}, @kbd{t}/@kbd{T} move the cursor forward/backward to the 
+-next occurence of the target. (eg, '3fy' will move the cursor to the 3rd 
++next occurrence of the target. (eg, '3fy' will move the cursor to the 3rd 
+ 'y' to the right.)
+ 
+ @noindent
