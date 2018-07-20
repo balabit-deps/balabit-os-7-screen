@@ -1,3 +1,12 @@
+screen (4.6.2-1ubuntu1) bionic; urgency=medium
+
+  * debian/screen.preinst: When screen is unpacked but not configured the
+    permissions for /var/run/screen need to be changed so that an existing
+    screen session can be reconnected to e.g. during an distribution upgrade.
+    (LP: #1761997)
+
+ -- Brian Murray <brian@ubuntu.com>  Fri, 20 Jul 2018 06:57:59 -0700
+
 screen (4.6.2-1) unstable; urgency=medium
 
   * Import new upstream release.
