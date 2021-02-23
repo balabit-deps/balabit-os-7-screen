@@ -1,3 +1,12 @@
+screen (4.6.2-1ubuntu1.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: DoS via crafted UTF-8 character sequence
+    - debian/patches/99_CVE-2021-26937.patch: fix out of bounds array
+      access in encoding.c.
+    - CVE-2021-26937
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 23 Feb 2021 12:46:52 -0500
+
 screen (4.6.2-1ubuntu1) bionic; urgency=medium
 
   * debian/screen.preinst: When screen is unpacked but not configured the
